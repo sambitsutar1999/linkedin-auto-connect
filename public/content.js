@@ -4,7 +4,7 @@ console.log("Content script loaded successfully!");
 const connectAllButton = document.createElement('button');
 connectAllButton.textContent = 'Connect with All';
 connectAllButton.style.position = 'fixed';
-connectAllButton.style.top = '20px';  // Top-right corner
+connectAllButton.style.top = '20px';
 connectAllButton.style.right = '20px';
 connectAllButton.style.padding = '10px';
 connectAllButton.style.fontSize = '16px';
@@ -14,7 +14,7 @@ connectAllButton.style.color = 'white';
 connectAllButton.style.border = 'none';
 connectAllButton.style.borderRadius = '5px';
 connectAllButton.style.cursor = 'pointer';
-connectAllButton.style.transition = 'background-color 0.3s';  // Smooth background color transition
+connectAllButton.style.transition = 'background-color 0.3s';
 
 // Add button to the page
 document.body.appendChild(connectAllButton);
